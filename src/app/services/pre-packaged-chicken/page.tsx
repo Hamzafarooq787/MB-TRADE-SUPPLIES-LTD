@@ -49,7 +49,7 @@ export default function PrePackagedChickenPage() {
       <section className="py-14 md:py-20 bg-background">
         <div className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
           <div className="text-center mb-16 max-w-2xl mx-auto fade-up">
-            <h2 className="font-headline-lg-mobile md:font-headline-lg text-primary mb-4">
+            <h2 className="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg text-primary mb-4">
               Uncompromising Quality Standards
             </h2>
             <p className="font-body-md text-on-surface-variant">
@@ -64,7 +64,7 @@ export default function PrePackagedChickenPage() {
                   ac_unit
                 </span>
               </div>
-              <h3 className="font-title-md text-primary">
+              <h3 className="font-title-md text-title-md text-primary">
                 Cold-Chain Integrity
               </h3>
               <p className="text-on-surface-variant font-body-md">
@@ -78,7 +78,7 @@ export default function PrePackagedChickenPage() {
                   verified
                 </span>
               </div>
-              <h3 className="font-title-md text-primary">
+              <h3 className="font-title-md text-title-md text-primary">
                 Certified Sourcing
               </h3>
               <p className="text-on-surface-variant font-body-md">
@@ -92,7 +92,7 @@ export default function PrePackagedChickenPage() {
                   storefront
                 </span>
               </div>
-              <h3 className="font-title-md text-primary">Retail-Ready</h3>
+              <h3 className="font-title-md text-title-md text-primary">Retail-Ready</h3>
               <p className="text-on-surface-variant font-body-md">
                 Barcoded, professionally packaged formats ready for immediate
                 display on supermarket shelves.
@@ -104,7 +104,7 @@ export default function PrePackagedChickenPage() {
                   local_dining
                 </span>
               </div>
-              <h3 className="font-title-md text-primary">Catering Bulk</h3>
+              <h3 className="font-title-md text-title-md text-primary">Catering Bulk</h3>
               <p className="text-on-surface-variant font-body-md">
                 Efficient bulk packaging options designed for high-volume
                 commercial kitchens and food service.
@@ -117,7 +117,7 @@ export default function PrePackagedChickenPage() {
       {/* Supply Chain Timeline */}
       <section className="py-14 md:py-20 bg-surface-container-low border-y border-surface-variant">
         <div className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-          <h2 className="font-headline-lg-mobile md:font-headline-lg text-primary text-center mb-16 fade-up">
+          <h2 className="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg text-primary text-center mb-16 fade-up">
             Our Efficient Supply Chain
           </h2>
           <div className="relative">
@@ -129,7 +129,7 @@ export default function PrePackagedChickenPage() {
                     agriculture
                   </span>
                 </div>
-                <h4 className="font-title-md text-primary">1. Sourcing</h4>
+                <h4 className="font-title-md text-title-md text-primary">1. Sourcing</h4>
                 <p className="text-sm text-on-surface-variant">
                   Procured from audited, high-standard farms.
                 </p>
@@ -140,7 +140,7 @@ export default function PrePackagedChickenPage() {
                     precision_manufacturing
                   </span>
                 </div>
-                <h4 className="font-title-md text-primary">
+                <h4 className="font-title-md text-title-md text-primary">
                   2. Processing &amp; Packaging
                 </h4>
                 <p className="text-sm text-on-surface-variant">
@@ -153,7 +153,7 @@ export default function PrePackagedChickenPage() {
                     warehouse
                   </span>
                 </div>
-                <h4 className="font-title-md text-primary">
+                <h4 className="font-title-md text-title-md text-primary">
                   3. Cold Storage
                 </h4>
                 <p className="text-sm text-on-surface-variant">
@@ -166,7 +166,7 @@ export default function PrePackagedChickenPage() {
                     local_shipping
                   </span>
                 </div>
-                <h4 className="font-title-md text-primary">4. Delivery</h4>
+                <h4 className="font-title-md text-title-md text-primary">4. Delivery</h4>
                 <p className="text-sm text-on-surface-variant">
                   Dispatched via refrigerated transport to your door.
                 </p>
@@ -180,7 +180,7 @@ export default function PrePackagedChickenPage() {
       <section className="py-16 bg-primary text-on-primary">
         <div className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop flex flex-col md:flex-row items-center justify-between gap-8 fade-up">
           <div>
-            <h2 className="font-headline-lg-mobile md:font-headline-lg mb-2">
+            <h2 className="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg mb-2">
               Streamline your poultry supply today.
             </h2>
             <p className="text-on-primary-container font-body-lg">

@@ -26,7 +26,7 @@ export default function LegalPageLayout({
             <p className="font-label-sm text-label-sm text-outline uppercase tracking-wide mb-3">
               Last updated: {lastUpdated}
             </p>
-            <h1 className="font-display-lg text-4xl md:text-display-lg text-primary mb-6">
+            <h1 className="font-display-lg font-bold text-4xl md:text-display-lg text-primary mb-6">
               {title}
             </h1>
             <p className="font-body-lg text-body-lg text-on-surface-variant">
@@ -40,7 +40,7 @@ export default function LegalPageLayout({
         <div className="max-w-3xl fade-up">
           {sections.map((section) => (
             <div key={section.heading} className="mb-10 last:mb-0">
-              <h2 className="font-headline-lg-mobile md:font-headline-lg text-2xl md:text-headline-lg text-primary mb-4">
+              <h2 className="font-headline-lg-mobile md:font-headline-lg font-bold text-2xl md:text-headline-lg text-primary mb-4">
                 {section.heading}
               </h2>
               <div className="font-body-md text-body-md text-on-surface-variant leading-relaxed space-y-4 [&_ul]:list-disc [&_ul]:pl-5 [&_ul]:space-y-2 [&_a]:text-secondary [&_a]:hover:underline">
