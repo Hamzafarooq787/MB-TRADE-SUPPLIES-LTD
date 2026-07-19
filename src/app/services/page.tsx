@@ -10,7 +10,7 @@ export default function ServicesPage() {
       {/* Hero Section */}
       <section className="bg-surface-container-low py-16 md:py-24">
         <div className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop text-center">
-          <h1 className="font-display-lg text-display-lg text-primary mb-6 fade-up">
+          <h1 className="font-display-lg font-bold text-4xl sm:text-5xl md:text-display-lg text-primary mb-6 fade-up">
             Our Services
           </h1>
           <p className="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto fade-up stagger-1">
@@ -219,7 +219,7 @@ export default function ServicesPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-primary text-center">
+      <section className="py-14 md:py-20 bg-primary text-center">
         <div className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop fade-up">
           <h2 className="font-headline-lg text-headline-lg text-on-primary mb-6">
             Ready to set up a trade account?

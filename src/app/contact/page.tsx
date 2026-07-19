@@ -8,7 +8,7 @@ export default function ContactPage() {
       {/* Hero Section */}
       <section className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop mb-16 reveal">
         <div className="max-w-3xl">
-          <h1 className="font-display-lg text-4xl md:text-display-lg text-primary mb-4 md:mb-6">
+          <h1 className="font-display-lg font-bold text-4xl md:text-display-lg text-primary mb-4 md:mb-6">
             Get In Touch
           </h1>
           <p className="font-body-lg text-body-lg text-on-surface-variant">

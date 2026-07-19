@@ -6,7 +6,7 @@ export default function AboutPage() {
   return (
     <>
       {/* Hero Section */}
-      <section className="relative h-[60vh] flex items-center justify-center bg-primary">
+      <section className="relative flex items-center justify-center bg-primary py-20 md:py-0 md:h-[60vh]">
         <div className="absolute inset-0 z-0 opacity-40">
           <div
             className="bg-cover bg-center w-full h-full"
@@ -17,7 +17,7 @@ export default function AboutPage() {
           ></div>
         </div>
         <div className="relative z-10 text-center max-w-3xl px-margin-mobile md:px-margin-desktop fade-up">
-          <h1 className="font-display-lg text-display-lg text-on-primary mb-6">
+          <h1 className="font-display-lg font-bold text-4xl sm:text-5xl md:text-display-lg text-on-primary mb-6">
             About MB Trade Supplies Ltd
           </h1>
           <p className="font-body-lg text-body-lg text-inverse-primary">
@@ -28,7 +28,7 @@ export default function AboutPage() {
       </section>
 
       {/* Company Narrative */}
-      <section className="py-24 max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+      <section className="py-16 md:py-24 max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-gutter items-center">
           <div className="fade-up">
             <h2 className="font-headline-lg text-headline-lg text-primary mb-6">
@@ -60,7 +60,7 @@ export default function AboutPage() {
       </section>
 
       {/* Values Bento Grid */}
-      <section className="py-24 bg-surface-container-low">
+      <section className="py-16 md:py-24 bg-surface-container-low">
         <div className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
           <div className="text-center mb-16 fade-up">
             <h2 className="font-headline-lg text-headline-lg text-primary mb-4">
@@ -145,12 +145,12 @@ export default function AboutPage() {
       </section>
 
       {/* By the Numbers */}
-      <section className="py-24 max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+      <section className="py-16 md:py-24 max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
         <div className="bg-primary rounded-xl p-8 md:p-12 shadow-[0px_10px_15px_-3px_rgba(10,31,68,0.1)] relative overflow-hidden fade-up">
           <div className="absolute top-0 right-0 w-64 h-64 bg-primary-container rounded-full opacity-50 blur-3xl -mr-32 -mt-32"></div>
           <div className="relative z-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 text-center divide-y sm:divide-y-0 sm:divide-x divide-primary-container">
             <div className="p-4">
-              <div className="font-display-lg text-display-lg text-secondary mb-2">
+              <div className="font-display-lg font-bold text-3xl sm:text-4xl md:text-display-lg text-secondary mb-2">
                 15+
               </div>
               <div className="font-title-md text-title-md text-on-primary">
@@ -158,7 +158,7 @@ export default function AboutPage() {
               </div>
             </div>
             <div className="p-4">
-              <div className="font-display-lg text-display-lg text-secondary mb-2">
+              <div className="font-display-lg font-bold text-3xl sm:text-4xl md:text-display-lg text-secondary mb-2">
                 5,000+
               </div>
               <div className="font-title-md text-title-md text-on-primary">
@@ -166,7 +166,7 @@ export default function AboutPage() {
               </div>
             </div>
             <div className="p-4">
-              <div className="font-display-lg text-display-lg text-secondary mb-2">
+              <div className="font-display-lg font-bold text-3xl sm:text-4xl md:text-display-lg text-secondary mb-2">
                 1,200+
               </div>
               <div className="font-title-md text-title-md text-on-primary">
@@ -174,7 +174,7 @@ export default function AboutPage() {
               </div>
             </div>
             <div className="p-4">
-              <div className="font-display-lg text-display-lg text-secondary mb-2">
+              <div className="font-display-lg font-bold text-3xl sm:text-4xl md:text-display-lg text-secondary mb-2">
                 98%
               </div>
               <div className="font-title-md text-title-md text-on-primary">

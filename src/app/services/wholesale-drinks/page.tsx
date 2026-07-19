@@ -19,7 +19,7 @@ export default function WholesaleDrinksPage() {
         </div>
         <div className="relative max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop py-16 md:py-32">
           <div className="max-w-2xl fade-up">
-            <h1 className="font-display-lg text-display-lg text-primary mb-6">
+            <h1 className="font-display-lg font-bold text-4xl sm:text-5xl md:text-display-lg text-primary mb-6">
               Wholesale Drinks Supply
             </h1>
             <p className="font-body-lg text-body-lg text-on-surface-variant mb-10">
