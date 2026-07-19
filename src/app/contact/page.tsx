@@ -63,28 +63,17 @@ export default function ContactPage() {
               </span>
             </div>
             <h2 className="font-title-md text-title-md text-primary mb-4">
-              Direct Contact
+              Email Us
             </h2>
-            <div className="space-y-3">
-              <a
-                href="mailto:accounts@mbtradesupplies.co.uk"
-                className="flex items-center gap-2 font-body-md text-body-md text-on-surface-variant hover:text-secondary transition-colors duration-200 break-all"
-              >
-                <span className="material-symbols-outlined text-lg shrink-0">
-                  mail
-                </span>
-                accounts@mbtradesupplies.co.uk
-              </a>
-              <a
-                href="tel:+441234567890"
-                className="flex items-center gap-2 font-body-md text-body-md text-on-surface-variant hover:text-secondary transition-colors duration-200"
-              >
-                <span className="material-symbols-outlined text-lg shrink-0">
-                  call
-                </span>
-                +44 (0) 1234 567 890
-              </a>
-            </div>
+            <a
+              href="mailto:accounts@mbtradesupplies.co.uk"
+              className="flex items-center gap-2 font-body-md text-body-md text-on-surface-variant hover:text-secondary transition-colors duration-200 break-all"
+            >
+              <span className="material-symbols-outlined text-lg shrink-0">
+                mail
+              </span>
+              accounts@mbtradesupplies.co.uk
+            </a>
           </div>
 
           {/* Operating Hours */}
@@ -132,7 +121,7 @@ export default function ContactPage() {
           <div className="relative z-10 flex flex-col md:flex-row items-start md:items-center justify-between gap-8">
             <div>
               <h2 className="font-headline-lg-mobile md:font-headline-lg text-2xl md:text-headline-lg text-on-primary mb-2">
-                Prefer to talk it through?
+                Ready to discuss your order?
               </h2>
               <p className="font-body-md text-body-md text-on-primary-container max-w-xl">
                 Our trade team is on hand Monday to Saturday to discuss
@@ -141,17 +130,8 @@ export default function ContactPage() {
             </div>
             <div className="flex flex-col sm:flex-row gap-4 w-full md:w-auto shrink-0">
               <a
-                href="tel:+441234567890"
-                className="inline-flex items-center justify-center gap-2 bg-secondary text-on-secondary font-label-md text-label-md px-8 py-3 rounded hover:bg-secondary-container transition-colors duration-300 shadow-[0px_2px_4px_rgba(10,31,68,0.05)] hover:shadow-[0px_10px_15px_-3px_rgba(10,31,68,0.1)]"
-              >
-                <span className="material-symbols-outlined text-lg">
-                  call
-                </span>
-                Call Our Trade Team
-              </a>
-              <a
                 href="mailto:accounts@mbtradesupplies.co.uk"
-                className="inline-flex items-center justify-center gap-2 border-2 border-on-primary text-on-primary font-label-md text-label-md px-8 py-3 rounded hover:bg-on-primary/10 transition-colors duration-300"
+                className="inline-flex items-center justify-center gap-2 bg-secondary text-on-secondary font-label-md text-label-md px-8 py-3 rounded hover:bg-secondary-container transition-colors duration-300 shadow-[0px_2px_4px_rgba(10,31,68,0.05)] hover:shadow-[0px_10px_15px_-3px_rgba(10,31,68,0.1)]"
               >
                 <span className="material-symbols-outlined text-lg">
                   mail

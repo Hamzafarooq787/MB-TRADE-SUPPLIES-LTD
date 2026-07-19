@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
@@ -43,11 +44,15 @@ export default function Header() {
       style={{ height: scrolled ? "64px" : "80px" }}
     >
       <div className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop flex items-center justify-between h-full gap-2 md:gap-3 lg:gap-6">
-        <Link
-          href="/"
-          className="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-lg lg:text-xl xl:text-headline-lg text-primary dark:text-on-primary-fixed shrink-0 whitespace-nowrap"
-        >
-          MB Trade Supplies Ltd
+        <Link href="/" className="shrink-0 flex items-center">
+          <Image
+            src="/logo.webp"
+            alt="MB Trade Supplies Ltd"
+            width={1063}
+            height={191}
+            priority
+            className="h-7 md:h-8 lg:h-9 w-auto"
+          />
         </Link>
 
         <nav className="hidden md:flex items-center gap-3 lg:gap-8 text-sm lg:text-base">
