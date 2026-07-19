@@ -69,68 +69,6 @@ body {
   font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 24;
 }
 
-/* Contact form floating labels */
-.input-group {
-  position: relative;
-  margin-bottom: 2rem;
-}
-
-.input-group input,
-.input-group textarea,
-.input-group select {
-  width: 100%;
-  padding: 12px 16px;
-  border: 1px solid #cbd5e1;
-  border-radius: 0.125rem;
-  background-color: transparent;
-  font-family: var(--font-inter), sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  color: #191c1e;
-  transition: all 0.3s ease;
-}
-
-.input-group input:focus,
-.input-group textarea:focus,
-.input-group select:focus {
-  outline: none;
-  border-color: #00081e;
-  box-shadow: 0 0 0 2px rgba(0, 8, 30, 0.2);
-}
-
-.input-group label {
-  position: absolute;
-  left: 16px;
-  top: 12px;
-  pointer-events: none;
-  transition: all 0.3s ease;
-  color: #75777f;
-  font-family: var(--font-inter), sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-}
-
-.input-group input:focus ~ label,
-.input-group input:not(:placeholder-shown) ~ label,
-.input-group textarea:focus ~ label,
-.input-group textarea:not(:placeholder-shown) ~ label,
-.input-group select:focus ~ label,
-.input-group select:valid ~ label {
-  top: -24px;
-  left: 0;
-  font-size: 14px;
-  color: #00081e;
-  font-weight: 500;
-}
-
-.select-wrapper label {
-  top: -24px;
-  left: 0;
-  font-size: 14px;
-  color: #00081e;
-  font-weight: 500;
-}
-
 /* Scroll reveal used on the Contact page */
 .reveal {
   opacity: 0;

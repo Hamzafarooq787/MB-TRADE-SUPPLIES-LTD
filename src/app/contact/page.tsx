@@ -8,11 +8,11 @@ export default function ContactPage() {
       {/* Hero Section */}
       <section className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop mb-16 reveal">
         <div className="max-w-3xl">
-          <h1 className="font-display-lg text-display-lg text-primary mb-4 md:mb-6">
+          <h1 className="font-display-lg text-4xl md:text-display-lg text-primary mb-4 md:mb-6">
             Get In Touch
           </h1>
           <p className="font-body-lg text-body-lg text-on-surface-variant">
-            Ready to streamline your wholesale supply chain? Contact us today
+            Ready to streamline your wholesale supply chain? Reach out today
             to discuss trade pricing, set up a new account, or enquire about
             our specialized logistics for food and beverage distribution
             across the UK.
@@ -20,24 +20,25 @@ export default function ContactPage() {
         </div>
       </section>
 
-      {/* Contact Layout */}
-      <section className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop mb-24 grid grid-cols-1 lg:grid-cols-12 gap-gutter">
-        {/* Left Column: Company Info */}
-        <div
-          className="lg:col-span-5 flex flex-col space-y-8 reveal"
-          style={{ transitionDelay: "100ms" }}
-        >
-          <div className="bg-surface-container-lowest border border-outline-variant/30 rounded-lg p-8 shadow-[0px_2px_4px_rgba(10,31,68,0.05)] hover-lift">
-            <h2 className="font-title-md text-title-md text-primary mb-6 flex items-center">
+      {/* Contact Cards */}
+      <section className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-gutter">
+          {/* Headquarters */}
+          <div
+            className="bg-surface-container-lowest border border-outline-variant/30 rounded-lg p-8 shadow-[0px_2px_4px_rgba(10,31,68,0.05)] hover-lift reveal"
+          >
+            <div className="w-12 h-12 bg-primary-fixed rounded-full flex items-center justify-center mb-6 text-primary">
               <span
-                className="material-symbols-outlined mr-3 text-secondary"
+                className="material-symbols-outlined"
                 style={{ fontVariationSettings: "'FILL' 1" }}
               >
                 location_on
               </span>
+            </div>
+            <h2 className="font-title-md text-title-md text-primary mb-4">
               Headquarters
             </h2>
-            <address className="not-italic font-body-md text-body-md text-on-surface-variant space-y-2 mb-8">
+            <address className="not-italic font-body-md text-body-md text-on-surface-variant leading-relaxed">
               MB Trade Supplies Ltd
               <br />
               Unit 3, Garfield Works
@@ -46,160 +47,128 @@ export default function ContactPage() {
               <br />
               ST3 1PF, United Kingdom
             </address>
-            <h2 className="font-title-md text-title-md text-primary mb-6 flex items-center">
+          </div>
+
+          {/* Direct Contact */}
+          <div
+            className="bg-surface-container-lowest border border-outline-variant/30 rounded-lg p-8 shadow-[0px_2px_4px_rgba(10,31,68,0.05)] hover-lift reveal"
+            style={{ transitionDelay: "100ms" }}
+          >
+            <div className="w-12 h-12 bg-primary-fixed rounded-full flex items-center justify-center mb-6 text-primary">
               <span
-                className="material-symbols-outlined mr-3 text-secondary"
+                className="material-symbols-outlined"
                 style={{ fontVariationSettings: "'FILL' 1" }}
               >
                 mail
               </span>
+            </div>
+            <h2 className="font-title-md text-title-md text-primary mb-4">
               Direct Contact
             </h2>
-            <div className="space-y-4">
-              <div className="flex items-center group cursor-pointer">
-                <span className="font-body-md text-body-md text-on-surface-variant group-hover:text-secondary transition-colors duration-200">
-                  accounts@mbtradesupplies.co.uk
+            <div className="space-y-3">
+              <a
+                href="mailto:accounts@mbtradesupplies.co.uk"
+                className="flex items-center gap-2 font-body-md text-body-md text-on-surface-variant hover:text-secondary transition-colors duration-200 break-all"
+              >
+                <span className="material-symbols-outlined text-lg shrink-0">
+                  mail
                 </span>
-                <span className="material-symbols-outlined ml-2 text-outline group-hover:text-secondary opacity-0 group-hover:opacity-100 transition-all duration-200 text-sm">
-                  open_in_new
+                accounts@mbtradesupplies.co.uk
+              </a>
+              <a
+                href="tel:+441234567890"
+                className="flex items-center gap-2 font-body-md text-body-md text-on-surface-variant hover:text-secondary transition-colors duration-200"
+              >
+                <span className="material-symbols-outlined text-lg shrink-0">
+                  call
                 </span>
-              </div>
-              <div className="flex items-center group cursor-pointer">
-                <span className="font-body-md text-body-md text-on-surface-variant group-hover:text-secondary transition-colors duration-200">
-                  +44 (0) 1234 567 890
-                </span>
-              </div>
+                +44 (0) 1234 567 890
+              </a>
             </div>
           </div>
 
-          <div className="bg-surface-container-lowest border border-outline-variant/30 rounded-lg p-8 shadow-[0px_2px_4px_rgba(10,31,68,0.05)] hover-lift">
-            <h2 className="font-title-md text-title-md text-primary mb-6 flex items-center">
+          {/* Operating Hours */}
+          <div
+            className="bg-surface-container-lowest border border-outline-variant/30 rounded-lg p-8 shadow-[0px_2px_4px_rgba(10,31,68,0.05)] hover-lift reveal md:col-span-2 lg:col-span-1"
+            style={{ transitionDelay: "200ms" }}
+          >
+            <div className="w-12 h-12 bg-primary-fixed rounded-full flex items-center justify-center mb-6 text-primary">
               <span
-                className="material-symbols-outlined mr-3 text-secondary"
+                className="material-symbols-outlined"
                 style={{ fontVariationSettings: "'FILL' 1" }}
               >
                 schedule
               </span>
+            </div>
+            <h2 className="font-title-md text-title-md text-primary mb-4">
               Operating Hours
             </h2>
             <ul className="font-body-md text-body-md text-on-surface-variant space-y-3">
               <li className="flex justify-between border-b border-surface-container pb-2">
-                <span>Monday - Friday</span>{" "}
+                <span>Monday - Friday</span>
                 <span className="font-medium text-primary">
                   06:00 - 18:00
                 </span>
               </li>
               <li className="flex justify-between border-b border-surface-container pb-2">
-                <span>Saturday</span>{" "}
+                <span>Saturday</span>
                 <span className="font-medium text-primary">
                   06:00 - 14:00
                 </span>
               </li>
               <li className="flex justify-between pb-2">
-                <span>Sunday</span>{" "}
+                <span>Sunday</span>
                 <span className="font-medium text-outline">Closed</span>
               </li>
             </ul>
           </div>
         </div>
+      </section>
 
-        {/* Right Column: Form */}
-        <div
-          className="lg:col-span-7 reveal"
-          style={{ transitionDelay: "200ms" }}
-        >
-          <div className="bg-surface-container-lowest border border-outline-variant/30 rounded-lg p-8 shadow-[0px_2px_4px_rgba(10,31,68,0.05)]">
-            <h2 className="font-title-md text-title-md text-primary mb-8">
-              Send an Enquiry
-            </h2>
-            <form action="#" className="space-y-2" method="POST">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-x-gutter">
-                <div className="input-group">
-                  <input id="name" name="name" placeholder=" " required type="text" />
-                  <label htmlFor="name">Full Name</label>
-                </div>
-                <div className="input-group">
-                  <input
-                    id="company"
-                    name="company"
-                    placeholder=" "
-                    type="text"
-                  />
-                  <label htmlFor="company">Company Name</label>
-                </div>
-              </div>
-              <div className="input-group">
-                <input
-                  id="email"
-                  name="email"
-                  placeholder=" "
-                  required
-                  type="email"
-                />
-                <label htmlFor="email">Work Email Address</label>
-              </div>
-              <div className="input-group select-wrapper">
-                <label htmlFor="enquiry_type">Enquiry Type</label>
-                <select
-                  className="mt-2 appearance-none bg-transparent"
-                  id="enquiry_type"
-                  name="enquiry_type"
-                  required
-                  defaultValue=""
-                >
-                  <option disabled hidden value="">
-                    Select an option...
-                  </option>
-                  <option value="wholesale_drinks">Wholesale Drinks</option>
-                  <option value="pre_packaged_chicken">
-                    Pre-Packaged Chicken
-                  </option>
-                  <option value="new_account">New Trade Account</option>
-                  <option value="logistics">Logistics &amp; Delivery</option>
-                  <option value="other">Other</option>
-                </select>
-                <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-4 text-outline mt-2">
-                  <span className="material-symbols-outlined">
-                    expand_more
-                  </span>
-                </div>
-              </div>
-              <div className="input-group mt-6">
-                <textarea
-                  className="resize-none"
-                  id="message"
-                  name="message"
-                  placeholder=" "
-                  required
-                  rows={5}
-                ></textarea>
-                <label htmlFor="message">Your Message</label>
-              </div>
-              <div className="pt-4 flex items-center justify-between">
-                <span className="font-label-sm text-label-sm text-outline">
-                  * Required fields
+      {/* CTA Banner */}
+      <section className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop mb-16 reveal">
+        <div className="bg-primary rounded-xl p-8 md:p-12 shadow-[0px_10px_15px_-3px_rgba(10,31,68,0.1)] relative overflow-hidden">
+          <div className="absolute top-0 right-0 w-64 h-64 bg-primary-container rounded-full opacity-50 blur-3xl -mr-32 -mt-32"></div>
+          <div className="relative z-10 flex flex-col md:flex-row items-start md:items-center justify-between gap-8">
+            <div>
+              <h2 className="font-headline-lg-mobile md:font-headline-lg text-2xl md:text-headline-lg text-on-primary mb-2">
+                Prefer to talk it through?
+              </h2>
+              <p className="font-body-md text-body-md text-on-primary-container max-w-xl">
+                Our trade team is on hand Monday to Saturday to discuss
+                pricing, logistics, and setting up your account.
+              </p>
+            </div>
+            <div className="flex flex-col sm:flex-row gap-4 w-full md:w-auto shrink-0">
+              <a
+                href="tel:+441234567890"
+                className="inline-flex items-center justify-center gap-2 bg-secondary text-on-secondary font-label-md text-label-md px-8 py-3 rounded hover:bg-secondary-container transition-colors duration-300 shadow-[0px_2px_4px_rgba(10,31,68,0.05)] hover:shadow-[0px_10px_15px_-3px_rgba(10,31,68,0.1)]"
+              >
+                <span className="material-symbols-outlined text-lg">
+                  call
                 </span>
-                <button
-                  className="bg-secondary hover:bg-secondary-container text-on-secondary px-8 py-3 rounded font-label-md text-label-md transition-colors duration-300 shadow-[0px_2px_4px_rgba(10,31,68,0.05)] hover:shadow-[0px_10px_15px_-3px_rgba(10,31,68,0.1)] flex items-center"
-                  type="submit"
-                >
-                  Submit Enquiry
-                  <span className="material-symbols-outlined ml-2 text-sm">
-                    send
-                  </span>
-                </button>
-              </div>
-            </form>
+                Call Our Trade Team
+              </a>
+              <a
+                href="mailto:accounts@mbtradesupplies.co.uk"
+                className="inline-flex items-center justify-center gap-2 border-2 border-on-primary text-on-primary font-label-md text-label-md px-8 py-3 rounded hover:bg-on-primary/10 transition-colors duration-300"
+              >
+                <span className="material-symbols-outlined text-lg">
+                  mail
+                </span>
+                Email Us
+              </a>
+            </div>
           </div>
         </div>
       </section>
 
       {/* Map Section */}
       <section
-        className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop mb-12 reveal"
+        className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop reveal"
         style={{ transitionDelay: "300ms" }}
       >
-        <div className="w-full h-96 bg-surface-container rounded-lg overflow-hidden relative shadow-[0px_2px_4px_rgba(10,31,68,0.05)] border border-outline-variant/30">
+        <div className="w-full h-72 sm:h-96 bg-surface-container rounded-lg overflow-hidden relative shadow-[0px_2px_4px_rgba(10,31,68,0.05)] border border-outline-variant/30">
           <div
             className="w-full h-full bg-cover bg-center"
             style={{
@@ -207,7 +176,7 @@ export default function ContactPage() {
                 "url('https://lh3.googleusercontent.com/aida-public/AB6AXuDmCNdnHvIaUUuELJUoarbM5sfFbJC3Gx_DG2Js-wlxCtM8cX2Ryfv1islWbBHrh2Uw6ms_Oq8kSDnsdo9J8_tWzaBSbWyBwaxrYu4bOdfOdkjQWvWu5AVaMYMxdOwcqkZ9R0P7M71kJX-Rpcl7-vHLg2EVQE69iwZ3c6L6l7ycyO0_PxI6woNS-wIp1DhKrw5J-Mtckod9XkVd6HA6O13-Bsq2CYbBtRibHorh9bavfDWJpmrx-0mfbFFdXjB7UhYOyVUVdM1V4xg')",
             }}
           ></div>
-          <div className="absolute bottom-6 left-6 bg-surface-container-lowest p-4 rounded shadow-md border border-outline-variant/20 flex items-start space-x-3">
+          <div className="absolute bottom-4 left-4 right-4 sm:right-auto sm:bottom-6 sm:left-6 bg-surface-container-lowest p-4 rounded shadow-md border border-outline-variant/20 flex items-start space-x-3">
             <div className="bg-primary-container p-2 rounded shrink-0">
               <span
                 className="material-symbols-outlined text-on-primary-container"
