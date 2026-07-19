@@ -26,12 +26,6 @@ export default function PrePackagedChickenPage() {
               strict cold-chain network.
             </p>
             <div className="flex flex-wrap gap-4 mt-4">
-              <button className="bg-secondary text-on-secondary px-8 py-3 rounded shadow-md hover:bg-secondary-container transition-all duration-150 font-label-md flex items-center gap-2 hover-lift">
-                View Poultry Range
-                <span className="material-symbols-outlined text-sm">
-                  arrow_forward
-                </span>
-              </button>
               <Link
                 href="/contact"
                 className="border border-primary text-primary bg-transparent px-8 py-3 rounded hover:bg-primary/5 transition-all duration-150 font-label-md"

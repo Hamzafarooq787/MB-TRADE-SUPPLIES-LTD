@@ -35,7 +35,7 @@ export default function Home() {
               href="/contact"
               className="w-full sm:w-auto border-2 border-on-primary text-on-primary px-8 py-4 rounded-DEFAULT font-label-md text-label-md hover:bg-on-primary/10 transition-colors duration-300 hover-lift text-center"
             >
-              Request Trade Pricing
+              Contact Us
             </Link>
           </div>
         </div>
