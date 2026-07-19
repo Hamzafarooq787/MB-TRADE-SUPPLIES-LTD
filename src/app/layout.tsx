@@ -11,10 +11,39 @@ const inter = Inter({
   weight: ["400", "500", "600", "700"],
 });
 
+const siteUrl =
+  process.env.NEXT_PUBLIC_SITE_URL ||
+  (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : "http://localhost:3000");
+
+const title = "MB Trade Supplies Ltd - Wholesale Supplies";
+const description =
+  "Reliable wholesale supply of drinks and pre-packaged chicken to trade customers across the UK.";
+
 export const metadata: Metadata = {
-  title: "MB Trade Supplies Ltd - Wholesale Supplies",
-  description:
-    "Reliable wholesale supply of drinks and pre-packaged chicken to trade customers across the UK.",
+  metadataBase: new URL(siteUrl),
+  title,
+  description,
+  openGraph: {
+    title,
+    description,
+    siteName: "MB Trade Supplies Ltd",
+    type: "website",
+    locale: "en_GB",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1162,
+        height: 608,
+        alt: "MB Trade Supplies Ltd",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title,
+    description,
+    images: ["/og-image.jpg"],
+  },
 };
 
 export default function RootLayout({
