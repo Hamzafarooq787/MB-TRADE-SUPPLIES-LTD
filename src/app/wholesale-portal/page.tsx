@@ -96,7 +96,7 @@ export default function WholesalePortalPage() {
           <div className="absolute top-0 right-0 w-64 h-64 bg-primary-container rounded-full opacity-50 blur-3xl -mr-32 -mt-32"></div>
           <div className="relative z-10 flex flex-col md:flex-row items-start md:items-center justify-between gap-8">
             <div>
-              <h2 className="font-headline-lg-mobile md:font-headline-lg text-2xl md:text-headline-lg text-on-primary mb-2">
+              <h2 className="font-headline-lg-mobile md:font-headline-lg font-bold text-2xl md:text-headline-lg text-on-primary mb-2">
                 Ready to get portal access?
               </h2>
               <p className="font-body-md text-body-md text-on-primary-container max-w-xl">
