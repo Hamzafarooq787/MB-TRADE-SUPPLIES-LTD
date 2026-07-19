@@ -41,7 +41,7 @@ export default function WholesalePortalPage() {
             </span>
             For Trade Customers
           </div>
-          <h1 className="font-display-lg text-4xl md:text-display-lg text-primary mb-6">
+          <h1 className="font-display-lg font-bold text-4xl md:text-display-lg text-primary mb-6">
             Wholesale Portal
           </h1>
           <p className="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">

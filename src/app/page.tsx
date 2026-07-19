@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <>
       {/* Hero Section */}
-      <section className="relative h-[80vh] min-h-[600px] flex items-center justify-center overflow-hidden">
+      <section className="relative flex items-center justify-center overflow-hidden py-28 md:py-0 md:h-[80vh] md:min-h-[600px]">
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-primary/70 mix-blend-multiply z-10"></div>
           <div className="absolute inset-0 bg-gradient-to-t from-primary to-transparent z-10 opacity-80"></div>
@@ -17,7 +17,7 @@ export default function Home() {
           ></div>
         </div>
         <div className="relative z-20 max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop text-center fade-up">
-          <h1 className="font-display-lg text-display-lg text-on-primary mb-6 max-w-4xl mx-auto drop-shadow-lg">
+          <h1 className="font-display-lg font-bold text-4xl sm:text-5xl md:text-display-lg text-on-primary mb-6 max-w-4xl mx-auto drop-shadow-lg">
             Trusted Wholesale Supply of Drinks &amp; Pre-Packaged Chicken
           </h1>
           <p className="font-body-lg text-body-lg text-inverse-on-surface mb-10 max-w-2xl mx-auto">
@@ -39,7 +39,7 @@ export default function Home() {
             </Link>
           </div>
         </div>
-        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-20 animate-bounce-custom">
+        <div className="hidden md:block absolute bottom-8 left-1/2 transform -translate-x-1/2 z-20 animate-bounce-custom">
           <span className="material-symbols-outlined text-on-primary text-3xl">
             keyboard_arrow_down
           </span>
@@ -47,10 +47,10 @@ export default function Home() {
       </section>
 
       {/* Company Snapshot */}
-      <section className="py-24 bg-surface-container-lowest">
+      <section className="py-16 md:py-24 bg-surface-container-lowest">
         <div className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-          <div className="text-center max-w-3xl mx-auto mb-16 fade-up">
-            <h2 className="font-headline-lg text-headline-lg text-primary mb-6">
+          <div className="text-center max-w-3xl mx-auto mb-10 md:mb-16 fade-up">
+            <h2 className="font-headline-lg text-2xl md:text-headline-lg text-primary mb-4 md:mb-6">
               Your Dependable Wholesale Partner
             </h2>
             <p className="font-body-md text-body-md text-on-surface-variant">
@@ -60,33 +60,33 @@ export default function Home() {
               always have the stock they need, when they need it.
             </p>
           </div>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 fade-up stagger-1">
-            <div className="text-center p-6 border border-surface-variant rounded-xl bg-surface hover-lift">
-              <div className="font-display-lg text-display-lg text-secondary mb-2">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 md:gap-8 fade-up stagger-1">
+            <div className="text-center p-4 sm:p-6 border border-surface-variant rounded-xl bg-surface hover-lift">
+              <div className="font-display-lg font-bold text-3xl sm:text-4xl md:text-display-lg text-secondary mb-2">
                 15+
               </div>
               <div className="font-label-md text-label-md text-on-surface">
                 Years Trading
               </div>
             </div>
-            <div className="text-center p-6 border border-surface-variant rounded-xl bg-surface hover-lift stagger-2">
-              <div className="font-display-lg text-display-lg text-secondary mb-2">
+            <div className="text-center p-4 sm:p-6 border border-surface-variant rounded-xl bg-surface hover-lift stagger-2">
+              <div className="font-display-lg font-bold text-3xl sm:text-4xl md:text-display-lg text-secondary mb-2">
                 500+
               </div>
               <div className="font-label-md text-label-md text-on-surface">
                 Product Lines
               </div>
             </div>
-            <div className="text-center p-6 border border-surface-variant rounded-xl bg-surface hover-lift stagger-3">
-              <div className="font-display-lg text-display-lg text-secondary mb-2">
+            <div className="text-center p-4 sm:p-6 border border-surface-variant rounded-xl bg-surface hover-lift stagger-3">
+              <div className="font-display-lg font-bold text-3xl sm:text-4xl md:text-display-lg text-secondary mb-2">
                 1.2k+
               </div>
               <div className="font-label-md text-label-md text-on-surface">
                 Trade Customers
               </div>
             </div>
-            <div className="text-center p-6 border border-surface-variant rounded-xl bg-surface hover-lift stagger-4">
-              <div className="font-display-lg text-display-lg text-secondary mb-2">
+            <div className="text-center p-4 sm:p-6 border border-surface-variant rounded-xl bg-surface hover-lift stagger-4">
+              <div className="font-display-lg font-bold text-3xl sm:text-4xl md:text-display-lg text-secondary mb-2">
                 UK
               </div>
               <div className="font-label-md text-label-md text-on-surface">
@@ -98,7 +98,7 @@ export default function Home() {
       </section>
 
       {/* Core Product Categories */}
-      <section className="py-24 bg-background">
+      <section className="py-16 md:py-24 bg-background">
         <div className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
           <div className="flex justify-between items-end mb-12 fade-up">
             <div>
@@ -200,7 +200,7 @@ export default function Home() {
       </section>
 
       {/* Why Trade With Us */}
-      <section className="py-24 bg-surface-container-lowest">
+      <section className="py-16 md:py-24 bg-surface-container-lowest">
         <div className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
           <div className="text-center mb-16 fade-up">
             <h2 className="font-headline-lg text-headline-lg text-primary mb-4">

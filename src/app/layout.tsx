@@ -11,9 +11,15 @@ const inter = Inter({
   weight: ["400", "500", "600", "700"],
 });
 
+const productionUrl = "https://mbtradesupplies.com";
+
 const siteUrl =
   process.env.NEXT_PUBLIC_SITE_URL ||
-  (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : "http://localhost:3000");
+  (process.env.VERCEL_ENV === "production"
+    ? productionUrl
+    : process.env.VERCEL_URL
+      ? `https://${process.env.VERCEL_URL}`
+      : productionUrl);
 
 const title = "MB Trade Supplies Ltd - Wholesale Supplies";
 const description =

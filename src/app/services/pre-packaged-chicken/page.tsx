@@ -17,7 +17,7 @@ export default function PrePackagedChickenPage() {
               </span>
               Wholesale Distribution
             </div>
-            <h1 className="font-display-lg text-4xl md:text-display-lg text-primary tracking-tight">
+            <h1 className="font-display-lg font-bold text-4xl md:text-display-lg text-primary tracking-tight">
               Pre-Packaged Chicken Supply
             </h1>
             <p className="font-body-lg text-body-lg text-on-surface-variant max-w-xl">
@@ -46,7 +46,7 @@ export default function PrePackagedChickenPage() {
       </section>
 
       {/* Product Standards & Packaging */}
-      <section className="py-20 bg-background">
+      <section className="py-14 md:py-20 bg-background">
         <div className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
           <div className="text-center mb-16 max-w-2xl mx-auto fade-up">
             <h2 className="font-headline-lg-mobile md:font-headline-lg text-primary mb-4">
@@ -115,7 +115,7 @@ export default function PrePackagedChickenPage() {
       </section>
 
       {/* Supply Chain Timeline */}
-      <section className="py-20 bg-surface-container-low border-y border-surface-variant">
+      <section className="py-14 md:py-20 bg-surface-container-low border-y border-surface-variant">
         <div className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
           <h2 className="font-headline-lg-mobile md:font-headline-lg text-primary text-center mb-16 fade-up">
             Our Efficient Supply Chain
