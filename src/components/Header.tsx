@@ -67,7 +67,7 @@ export default function Header() {
                     expand_more
                   </span>
                 </Link>
-                <div className="absolute left-0 top-full pt-3 opacity-0 invisible translate-y-1 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-200">
+                <div className="absolute left-0 top-full pt-3 opacity-0 invisible translate-y-1 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 group-focus-within:opacity-100 group-focus-within:visible group-focus-within:translate-y-0 transition-all duration-200">
                   <div className="bg-surface-container-lowest border border-outline-variant rounded-lg shadow-lg py-2 min-w-[220px]">
                     {link.children.map((child) => (
                       <Link
