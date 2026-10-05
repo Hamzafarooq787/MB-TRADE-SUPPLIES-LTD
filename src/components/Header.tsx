@@ -12,10 +12,6 @@ const navLinks = [
     label: "Services",
     children: [
       { href: "/services/wholesale-drinks", label: "Wholesale Drinks" },
-      {
-        href: "/services/pre-packaged-chicken",
-        label: "Pre-Packaged Chicken",
-      },
     ],
   },
   { href: "/about", label: "About Us" },
