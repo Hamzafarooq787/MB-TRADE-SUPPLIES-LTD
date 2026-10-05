@@ -16,8 +16,8 @@ export default function PrivacyPolicyPage() {
           body: (
             <p>
               MB Trade Supplies Ltd (&ldquo;we&rdquo;, &ldquo;us&rdquo;,
-              &ldquo;our&rdquo;) is a wholesale supplier of drinks and
-              pre-packaged chicken, operating from Unit 3, Garfield Works,
+              &ldquo;our&rdquo;) is a wholesale supplier of drinks,
+              operating from Unit 3, Garfield Works,
               Uttoxeter Road, ST3 1PF, United Kingdom. We are the data
               controller for the personal information described in this
               policy.
