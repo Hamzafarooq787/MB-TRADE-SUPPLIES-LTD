@@ -25,7 +25,7 @@ const features = [
     icon: "inventory_2",
     title: "Real-Time Stock",
     description:
-      "Check live stock availability across our drinks and pre-packaged chicken ranges before you order.",
+      "Check live stock availability across our drinks range before you order.",
   },
 ];
 
