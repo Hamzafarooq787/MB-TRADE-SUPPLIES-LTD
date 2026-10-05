@@ -18,11 +18,11 @@ export default function Home() {
         </div>
         <div className="relative z-20 max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop text-center fade-up">
           <h1 className="font-display-lg font-bold text-4xl sm:text-5xl md:text-display-lg text-on-primary mb-6 max-w-4xl mx-auto drop-shadow-lg">
-            Trusted Wholesale Supply of Drinks &amp; Pre-Packaged Chicken
+            Trusted Wholesale Supply of Drinks
           </h1>
           <p className="font-body-lg text-body-lg text-inverse-on-surface mb-10 max-w-2xl mx-auto">
-            Supplying quality beverages and pre-packaged chicken products to
-            trade customers across the UK with reliability and efficiency.
+            Supplying quality beverages to trade customers across the UK with
+            reliability and efficiency.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
@@ -119,7 +119,7 @@ export default function Home() {
               </span>
             </Link>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
+          <div className="grid grid-cols-1 gap-8 mb-8 max-w-3xl mx-auto">
             <Link
               href="/services/wholesale-drinks"
               className="group rounded-xl overflow-hidden bg-surface-container-lowest border border-outline-variant shadow-sm hover-lift cursor-pointer fade-up stagger-1 block"
@@ -144,40 +144,6 @@ export default function Home() {
                   Comprehensive range of soft drinks, bottled water, and
                   juices. Supplied in bulk pallets with competitive trade
                   pricing.
-                </p>
-                <span className="text-secondary font-label-md text-label-md flex items-center">
-                  Browse Catalogue{" "}
-                  <span className="material-symbols-outlined ml-1 text-sm group-hover:translate-x-1 transition-transform">
-                    arrow_forward
-                  </span>
-                </span>
-              </div>
-            </Link>
-
-            <Link
-              href="/services/pre-packaged-chicken"
-              className="group rounded-xl overflow-hidden bg-surface-container-lowest border border-outline-variant shadow-sm hover-lift cursor-pointer fade-up stagger-2 block"
-            >
-              <div className="relative h-64 overflow-hidden">
-                <div className="absolute inset-0 bg-primary/20 group-hover:bg-primary/10 transition-colors duration-300 z-10"></div>
-                <img
-                  alt="Pre-Packaged Chicken"
-                  className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700"
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuDtxqQ8sWdZdKQUUiYU_C1XLiHziigIG3CMD5wNoQNYbQrnxIqpFJXUgtSojvNhlKCQmG4SM3WTmj-RoK_NN7QE1lkyNcwr4XaEbBhYTpVgj2WkhVq48NAB8p8LBlxrqx9BnNHX8TajahLN3wqec0SEjfsSy5mYvYUGJiRTx2gMsfeqp_bBrbj_ok9obJId9GVPwfnmL5-1BKRWG7sA0PNVvxR-T8vbaObL1M-RSkexsRNMMYdm3Wwv-NZXblcfqo5173NE-zaBNQU"
-                />
-                <div className="absolute top-4 right-4 z-20 bg-surface-container-lowest/90 backdrop-blur-sm px-3 py-1 rounded-full font-label-sm text-label-sm text-primary flex items-center shadow-sm">
-                  <span className="w-2 h-2 rounded-full bg-green-500 mr-2"></span>{" "}
-                  Fresh Daily
-                </div>
-              </div>
-              <div className="p-8">
-                <h3 className="font-title-md text-title-md text-primary mb-3 group-hover:text-secondary transition-colors">
-                  Pre-Packaged Chicken
-                </h3>
-                <p className="font-body-md text-body-md text-on-surface-variant mb-6">
-                  Quality chilled, pre-packaged poultry products suitable for
-                  retail and food service. Maintained in strict cold-chain
-                  environments.
                 </p>
                 <span className="text-secondary font-label-md text-label-md flex items-center">
                   Browse Catalogue{" "}
