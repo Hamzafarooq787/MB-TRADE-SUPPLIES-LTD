@@ -21,8 +21,8 @@ export default function Footer() {
             className="h-8 w-auto mb-4"
           />
           <p className="font-body-md text-body-md text-on-primary/80 max-w-sm">
-            Reliable wholesale supply of drinks and pre-packaged chicken to
-            trade customers across the UK.
+            Reliable wholesale supply of drinks to trade customers across
+            the UK.
           </p>
         </div>
         <div className="md:col-span-6 flex flex-col md:items-end justify-between">
