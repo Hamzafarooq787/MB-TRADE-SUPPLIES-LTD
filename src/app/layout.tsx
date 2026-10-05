@@ -23,7 +23,7 @@ const siteUrl =
 
 const title = "MB Trade Supplies Ltd - Wholesale Supplies";
 const description =
-  "Reliable wholesale supply of drinks and pre-packaged chicken to trade customers across the UK.";
+  "Reliable wholesale supply of drinks to trade customers across the UK.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
