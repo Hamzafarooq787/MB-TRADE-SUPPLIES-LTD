@@ -58,7 +58,7 @@ export default function ShippingInfoPage() {
           heading: "Cold-Chain Handling",
           body: (
             <p>
-              Pre-packaged chicken and other chilled products are
+              Chilled products are
               transported in temperature-controlled vehicles to maintain
               strict cold-chain integrity from our warehouse to your
               delivery bay.
