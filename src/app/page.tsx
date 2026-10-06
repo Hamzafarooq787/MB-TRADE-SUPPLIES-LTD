@@ -153,29 +153,63 @@ export default function Home() {
                 </span>
               </div>
             </Link>
-
             <Link
               href="/contact"
               aria-label="Enquire about professional cooking oils"
-              className="group block rounded-xl overflow-hidden bg-surface-container-lowest border border-outline-variant shadow-sm hover-lift fade-up stagger-2"
+              className="group rounded-xl overflow-hidden bg-surface-container-lowest border border-outline-variant shadow-sm hover-lift cursor-pointer fade-up stagger-2 block"
             >
-              <img
-                src="/professional-cooking-oils.webp"
-                alt="Professional cooking oils including vegetable oil and rapeseed oil for trade supply"
-                className="w-full h-auto object-cover"
-              />
+              <div className="relative h-64 overflow-hidden">
+                <img
+                  src="/professional-cooking-oils.webp"
+                  alt="Professional cooking oils including vegetable oil and rapeseed oil for wholesale trade supply"
+                  className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700"
+                />
+              </div>
+              <div className="p-8">
+                <h3 className="font-title-md text-title-md text-primary mb-3 group-hover:text-secondary transition-colors">
+                  Professional Cooking Oils
+                </h3>
+                <p className="font-body-md text-body-md text-on-surface-variant mb-6">
+                  Bulk vegetable and rapeseed oils for restaurants, takeaways,
+                  caterers, and commercial kitchens. Reliable UK trade supply
+                  with competitive wholesale pricing.
+                </p>
+                <span className="text-secondary font-label-md text-label-md flex items-center">
+                  Browse Catalogue{" "}
+                  <span className="material-symbols-outlined ml-1 text-sm group-hover:translate-x-1 transition-transform">
+                    arrow_forward
+                  </span>
+                </span>
+              </div>
             </Link>
-
             <Link
               href="/contact"
               aria-label="Enquire about professional flour"
-              className="group block rounded-xl overflow-hidden bg-surface-container-lowest border border-outline-variant shadow-sm hover-lift fade-up stagger-3"
+              className="group rounded-xl overflow-hidden bg-surface-container-lowest border border-outline-variant shadow-sm hover-lift cursor-pointer fade-up stagger-3 block"
             >
-              <img
-                src="/professional-flour.webp"
-                alt="Professional flour including plain flour, pizza flour and self-raising flour for trade supply"
-                className="w-full h-auto object-cover"
-              />
+              <div className="relative h-64 overflow-hidden">
+                <img
+                  src="/professional-flour.webp"
+                  alt="Professional plain flour pizza flour and self-raising flour for wholesale trade supply"
+                  className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700"
+                />
+              </div>
+              <div className="p-8">
+                <h3 className="font-title-md text-title-md text-primary mb-3 group-hover:text-secondary transition-colors">
+                  Professional Flour
+                </h3>
+                <p className="font-body-md text-body-md text-on-surface-variant mb-6">
+                  Professional plain, pizza, and self-raising flour for
+                  bakeries, pizzerias, restaurants, and commercial kitchens.
+                  Reliable UK trade supply with competitive wholesale pricing.
+                </p>
+                <span className="text-secondary font-label-md text-label-md flex items-center">
+                  Browse Catalogue{" "}
+                  <span className="material-symbols-outlined ml-1 text-sm group-hover:translate-x-1 transition-transform">
+                    arrow_forward
+                  </span>
+                </span>
+              </div>
             </Link>
           </div>
           <div className="md:hidden text-center mt-8">
