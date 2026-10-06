@@ -167,7 +167,7 @@ export default function Home() {
               </div>
               <div className="p-8">
                 <h3 className="font-title-md text-title-md text-primary mb-3 group-hover:text-secondary transition-colors">
-                  Professional Cooking Oils
+                  Wholesale Cooking Oils
                 </h3>
                 <p className="font-body-md text-body-md text-on-surface-variant mb-6">
                   Bulk vegetable and rapeseed oils for restaurants, takeaways,
@@ -196,7 +196,7 @@ export default function Home() {
               </div>
               <div className="p-8">
                 <h3 className="font-title-md text-title-md text-primary mb-3 group-hover:text-secondary transition-colors">
-                  Professional Flour
+                  Wholesale Flour
                 </h3>
                 <p className="font-body-md text-body-md text-on-surface-variant mb-6">
                   Professional plain, pizza, and self-raising flour for
