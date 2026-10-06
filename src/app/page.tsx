@@ -119,7 +119,7 @@ export default function Home() {
               </span>
             </Link>
           </div>
-          <div className="grid grid-cols-1 gap-8 mb-8 max-w-3xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
             <Link
               href="/services/wholesale-drinks"
               className="group rounded-xl overflow-hidden bg-surface-container-lowest border border-outline-variant shadow-sm hover-lift cursor-pointer fade-up stagger-1 block"
@@ -152,6 +152,30 @@ export default function Home() {
                   </span>
                 </span>
               </div>
+            </Link>
+
+            <Link
+              href="/contact"
+              aria-label="Enquire about professional cooking oils"
+              className="group block rounded-xl overflow-hidden bg-surface-container-lowest border border-outline-variant shadow-sm hover-lift fade-up stagger-2"
+            >
+              <img
+                src="/professional-cooking-oils.webp"
+                alt="Professional cooking oils including vegetable oil and rapeseed oil for trade supply"
+                className="w-full h-auto object-cover"
+              />
+            </Link>
+
+            <Link
+              href="/contact"
+              aria-label="Enquire about professional flour"
+              className="group block rounded-xl overflow-hidden bg-surface-container-lowest border border-outline-variant shadow-sm hover-lift fade-up stagger-3"
+            >
+              <img
+                src="/professional-flour.webp"
+                alt="Professional flour including plain flour, pizza flour and self-raising flour for trade supply"
+                className="w-full h-auto object-cover"
+              />
             </Link>
           </div>
           <div className="md:hidden text-center mt-8">
